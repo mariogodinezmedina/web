@@ -543,9 +543,18 @@ h6 {
 .color-black {
   color: #1d1d1d;
 }
-.color-fuchia {
-  color: fuchia;
+.color-github {
+  color: #EDC4AC;
 }
+
+.color-twitter {
+  color: #1DA1F2;
+}
+
+.color-linkedin {
+  color: #0073b1;
+}
+
 .color-black {
   color: #1d1d1d;
 }
