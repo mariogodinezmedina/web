@@ -11,11 +11,12 @@ body {
   margin: 0 !important;
   padding: 0 !important;
   font-family: 'Poppins', arial;
-  color: #1d1d1d !important;
-  background: #fff;
+/*background: 032435;*/
   transition: 0.8s !important;
   font-size: 15px;
 }
+
+
 .my-shape{
 	position: relative;
 	z-index: 4;
@@ -182,7 +183,78 @@ body {
 	transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
 }
 
+.experience-wrap{
 
+}
+
+
+.experience-wrap-timeline{
+	width: 2px;
+	height: 335px;
+	background: gray;
+	border-radius: 2px;
+}
+
+.experience-wrap-timeline-item{
+	margin-bottom: 130px;
+}
+
+.experience-wrap-timeline-item .rounded{
+	position: relative;
+	left:-4px;
+	top:20px;
+}
+
+.experience-wrap-timeline-item-box{
+	border: 1px solid;
+	padding: 5px 10px;
+	margin:0  25px; 
+	position: absolute;
+	top:-6px;
+	border-radius:3px;
+	width: 190px;
+}
+
+.experience-wrap-timeline-item:nth-child(even) .experience-wrap-timeline-item-box{
+	right:0px !important;
+	/*background: red !important;*/
+}
+
+.percent-bar-item{
+	width: 89%;
+	background: #eeeeee;
+}
+
+.percent-bar-item-inner{
+	height: 3px;
+	border-radius: 1px;
+	position: relative;
+
+
+}
+
+.percent-bar-item-inner-number{
+	
+	position: absolute;
+	top:-27px;
+	right: -11px;
+	padding: 0px 5px;
+	background: red;
+	font-size: 13px;
+	color: #ffffff;
+}
+
+.percent-bar-item-inner-number:after{
+	content: '';
+	border-left:4px solid transparent;
+	border-top:4px solid #d42717;
+	border-bottom:4px solid transparent;
+	border-right:4px solid transparent;
+	position: absolute;
+	bottom:-7px;
+	right: 8px;
+	
+}
 
 a {
   text-decoration: none;
@@ -461,6 +533,10 @@ h6 {
 .color-white {
   color: #fff !important;
 }
+
+	
+
+
 .color-red {
   color: #ca0000;
 }
@@ -541,13 +617,13 @@ h6 {
 .text-uppercase {
   text-transform: uppercase;
 }
-/*.anchor {
+.anchor {
   text-decoration: underline;
   cursor: pointer;
 }
 .anchor:hover {
   text-decoration: none;
-}*/
+}
 .hoverShadow {
   transition: 0.3s;
 }
@@ -590,6 +666,11 @@ h6 {
 .font13 {
   font-size: 13px;
 }
+
+.font12 {
+  font-size: 12px;
+}
+
 .font20 {
   font-size: 20px;
 }
@@ -661,6 +742,17 @@ h6 {
   width: 40px;
   height: 40px;
 }
+
+.square10 {
+  width: 10px;
+  height: 10px;
+}
+
+.square12 {
+  width: 12px;
+  height: 12px;
+}
+
 .square25 {
   width: 25px;
   height: 25px;
@@ -821,7 +913,7 @@ h6 {
   width: 100%;
   border: 0;
   border: 2px solid #d8d6d6;
-  padding: 0.8em 0.6em;
+  padding: 0.6em;
   font-size: 1.2em;
   transition: 0.3s;
   color: #3f3f3f;
@@ -1126,7 +1218,7 @@ label:hover:before {
 
 .call-wrap{
   margin-top:120px;
-  background: lightgray;
+  background: #efefef;
 }
 
 .call-wrap-box{
@@ -1265,5 +1357,86 @@ li {
   transform-origin: bottom left;
 }
 
+.circle-container{
+	width:150px;
+	transform: scale(.5);
+	position: relative;
+	/*left:-30px;*/
+
+}
+
+.circle-wrap {
+  /*margin: 50px auto;*/
+  width: 150px;
+  height: 150px;
+
+  background: #e6e2e7;
+  border-radius: 50%;
+  /*transform: scale(.5);*/
+}
+
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+
+.circle-wrap .circle .mask {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap .circle .mask .fill.html {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: #f00;
+}
+
+.circle-wrap .circle .mask .fill.css {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: #00f;
+}
+
+.circle-wrap .circle .mask.full.html,
+.circle-wrap .circle .fill.html {
+  /*animation: fill ease-in-out 3s;*/
+  transform: rotate(171deg);
+}
+
+.circle-wrap .circle .mask.full.css,
+.circle-wrap .circle .fill.css {
+  /*animation: fill ease-in-out 3s;*/
+  transform: rotate(166deg);
+}
+
+
+ 
+
+
+.circle-wrap .inside-circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: #fff;
+  line-height: 130px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 2.5em;
+}
+
+/*@keyframes fill {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(130deg);
+  }
+}
+*/
 
 
