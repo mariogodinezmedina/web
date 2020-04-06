@@ -574,7 +574,7 @@ h6 {
   color: #2980b3;
 }
 .color-green {
-  color: #16a085;
+  color: #95CA3E;
 }
 .color-darkblue {
   color: #34495e;
@@ -843,7 +843,7 @@ h6 {
   background: #3b5998;
 }
 .back-green {
-  background: #16a085;
+  background: #95CA3E;
 }
 .back-yellow {
   background: #ffff49;
@@ -921,12 +921,13 @@ h6 {
 .my-input {
   width: 100%;
   border: 0;
-  border: 2px solid #d8d6d6;
+  border: 1px solid #d8d6d6;
   padding: 0.6em;
   font-size: 1.2em;
   transition: 0.3s;
   color: #3f3f3f;
-  border-radius: 2px;
+  border-radius: 30px;
+
   background: #fff;
 }
 .my-input:focus {
@@ -1447,5 +1448,8 @@ li {
   }
 }
 */
+
+
+
 
 
