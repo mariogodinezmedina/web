@@ -27,8 +27,8 @@ burguerClose.addEventListener('click', function(){
 
 
 
-$(".queEsHannah").click(function() {
-	$('html, body').animate({ scrollTop: $('#scrolledHannah').offset().top}, 1000);
+$(".about").click(function() {
+	$('html, body').animate({ scrollTop: $('#scrolledAbout').offset().top}, 1000);
 	burguerClose.classList.add('hide')
 	burguer.classList.remove('hide')
 
@@ -37,8 +37,8 @@ $(".queEsHannah").click(function() {
 	header.classList.remove('active-menu2')
 });
 
-$(".precios").click(function() {
-	$('html, body').animate({ scrollTop: $('#scrolledPrecios').offset().top}, 1000);
+$(".skills").click(function() {
+	$('html, body').animate({ scrollTop: $('#scrolledSkills').offset().top}, 1000);
 	burguerClose.classList.add('hide')
 	burguer.classList.remove('hide')
 
@@ -59,21 +59,21 @@ $(".contactanos").click(function() {
 
 
 
-var btn = document.querySelector('.mouse-hover-back')
-btn.onmousemove = function(e) {
-  var x = e.pageX - btn.offsetLeft - btn.offsetParent.offsetLeft
-  var y = e.pageY - btn.offsetTop - btn.offsetParent.offsetTop
-  btn.style.setProperty('--x', x + 'px')
-  btn.style.setProperty('--y', y + 'px')
-}
+// var btn = document.querySelector('.mouse-hover-back')
+// btn.onmousemove = function(e) {
+//   var x = e.pageX - btn.offsetLeft - btn.offsetParent.offsetLeft
+//   var y = e.pageY - btn.offsetTop - btn.offsetParent.offsetTop
+//   btn.style.setProperty('--x', x + 'px')
+//   btn.style.setProperty('--y', y + 'px')
+// }
 
-var btn2 = document.querySelector('.mouse-hover-back2')
-btn2.onmousemove = function(e) {
-  var x = e.pageX - btn2.offsetLeft - btn2.offsetParent.offsetLeft
-  var y = e.pageY - btn2.offsetTop - btn2.offsetParent.offsetTop
-  btn2.style.setProperty('--x', x + 'px')
-  btn2.style.setProperty('--y', y + 'px')
-}
+// var btn2 = document.querySelector('.mouse-hover-back2')
+// btn2.onmousemove = function(e) {
+//   var x = e.pageX - btn2.offsetLeft - btn2.offsetParent.offsetLeft
+//   var y = e.pageY - btn2.offsetTop - btn2.offsetParent.offsetTop
+//   btn2.style.setProperty('--x', x + 'px')
+//   btn2.style.setProperty('--y', y + 'px')
+// }
 
 
 
