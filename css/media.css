@@ -42,7 +42,6 @@
     -webkit-transform: scale(1) !important;
     -moz-transform: scale(1) !important;
     -ms-transform: scale(1) !important;
-    border:3px solid red;
   }
   .margin-right10-desktop{
     margin-right: 10px;
