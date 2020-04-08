@@ -1260,7 +1260,7 @@ label:hover:before {
 .menu-desktop-list-item{
   font-size:1.2em;
   /*color:gray;*/
-  padding: 26px 20px; 
+  padding: 20px; 
   /*border-right:1px solid lightgray;*/
   list-style: none;
 }
@@ -1294,7 +1294,7 @@ label:hover:before {
 }
 
 .header-icon{
-  font-size: 50px;
+  font-size: 40px;
   cursor: pointer;
   border-right:1px solid lightgray;
   padding: 3px 18px;
