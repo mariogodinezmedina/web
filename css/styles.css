@@ -27,10 +27,10 @@ body {
 .my-shape{
 	position: relative;
 	z-index: 4;
-	transform: scale(.6);
-	-webkit-transform: scale(.6);
-	-moz-transform: scale(.6);
-	-ms-transform: scale(.6);
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
 }
 
 
