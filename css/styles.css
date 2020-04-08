@@ -1563,14 +1563,5 @@ li {
 }
 
 
-@media screen and (min-width: 620px){
-
-	.width-controll-btn-header{
-		min-width: 170px !important;
-	}
-
-}
-
-
 
 

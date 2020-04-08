@@ -1,3 +1,11 @@
+@media (min-width: 620px){
+
+  .width-controll-btn-header{
+    min-width: 170px !important;
+  }
+
+}
+
 
 
 @media (min-width: 890px) {
@@ -19,6 +27,10 @@
   }
   .flex-desktop{
     display: flex !important;
+  }
+
+  .widthHalf-desktop{
+    width: 50% !important;
   }
   .show-desktop{
     display: block !important;
