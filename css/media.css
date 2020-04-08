@@ -35,6 +35,11 @@
   .show-desktop{
     display: block !important;
   }
+
+  .my-shape{
+
+    transform: scale(1) !important;
+  }
   .margin-right10-desktop{
     margin-right: 10px;
   }
