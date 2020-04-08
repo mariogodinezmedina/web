@@ -31,6 +31,8 @@ body {
 	-webkit-transform: scale(.3);
 	-moz-transform: scale(.3);
 	-ms-transform: scale(.3);
+    border:3px solid green;
+
 
 }
 
