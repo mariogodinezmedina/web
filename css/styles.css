@@ -17,6 +17,12 @@ body {
   color:#273b47;
 }
 
+.logo-text{
+	font-family: 'Rancho', cursive;
+/*font-family: 'Lakki Reddy', cursive;*/
+	font-size: 35px;
+}
+
 
 .my-shape{
 	position: relative;
@@ -26,22 +32,12 @@ body {
 	-moz-transform: scale(.3);
 	-ms-transform: scale(.3);
 
-
 }
-
-.logo-text{
-	font-family: 'Rancho', cursive;
-/*font-family: 'Lakki Reddy', cursive;*/
-	font-size: 35px;
-}
-
 
 
 .my-shape-container{
 	position: relative;
-
 }
-
 .my-shape-container-img{
 	width: 256px;
 	position: absolute;
